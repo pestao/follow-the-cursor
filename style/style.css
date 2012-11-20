@@ -1,0 +1,14 @@
+div {
+    height: 500px;
+    width: 500px;
+    border-color: red;
+    border-style: solid;
+}
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	padding:10px;
+	color:#fff;
+}
