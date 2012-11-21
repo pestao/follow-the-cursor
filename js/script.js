@@ -1,7 +1,7 @@
 $(document).ready(function() {
     (function($) {
         $.fn.tooltip = function() {
-            $(this).hover(function() {
+            this.hover(function() {
                 var titleText = $(this).attr('data-hint');
                 $(this).data('tipText', titleText).removeAttr('title');
                 $('<p class="tooltip"></p>').text(titleText).appendTo('body').fadeIn('slow');
