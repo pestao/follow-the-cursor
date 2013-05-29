@@ -1,8 +1,8 @@
 div {
-    height: 500px;
-    width: 500px;
-    border-color: red;
-    border-style: solid;
+    height:500px;
+    width:500px;
+    border-color:red;
+    border-style:solid;
 }
 .tooltip {
 	display:none;
@@ -14,8 +14,8 @@ div {
 }
 
 div.secondhint{
-    height: 100px;
-    width: 100px;
-    border-color: green;
-    border-style: solid;
+    height:100px;
+    width:100px;
+    border-color:green;
+    border-style:solid;
 }
